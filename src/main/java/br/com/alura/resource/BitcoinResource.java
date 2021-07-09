@@ -30,4 +30,6 @@ public class BitcoinResource {
 	public List<Bitcoin> listar(){
 		return bitcoinService.listar();
 	}
+
 }
+
