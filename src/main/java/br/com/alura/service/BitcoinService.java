@@ -15,7 +15,7 @@ import br.com.alura.model.Bitcoin;
 //aplication.properties br.com.alura.service.BitcoinService/mp-rest/url=https://alura-bitcoin.herokuapp.com
 
 @Path("/bitcoins")
-@RegisterRestClient
+@RegisterRestClient(configKey = "BitcoinService")
 public interface BitcoinService {
 
 	@GET
